@@ -34,8 +34,6 @@ Foram implementados os 5 endpoints de busca exigidos, incluindo paginação e fi
 4. **Filtrar Pedidos por Cliente:** `GET /orders/filter-client?clientId=1`
 5. **Listar Todos os Clientes:** `GET /clients`
 
-> **Nota:** O arquivo da Collection do Postman (`.json`) com todos os testes salvos encontra-se na raiz deste projeto.
-
 ## 📊 Regras de Negócio Implementadas
 * **Cálculo do Total:** Cada pedido possui um método `getTotal()` que soma o subtotal de todos os seus itens (Preço x Quantidade).
 * **Enumerações:** O status do pedido é controlado via `OrderStatus` (AGUARDANDO_PAGAMENTO, PAGO, ENVIADO, ENTREGUE, CANCELADO).
